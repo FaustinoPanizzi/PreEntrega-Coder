@@ -1,0 +1,619 @@
+/* Reseteo CSS */
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* Fin Reseteo CSS */
+
+body {
+
+    background-color: #d8d1b890;
+
+}
+
+.titulo {
+
+  content-visibility: hidden;
+
+}
+
+.logo {
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* Formato del MENU */
+
+.menu {
+
+  font-family: "Concert One", serif;
+
+}
+
+.menu__link:hover{
+  background-color: #869C78;
+  border-radius: 30px;
+  color: white;
+}
+
+ul {
+
+  list-style-type: none;
+  text-align: center;
+
+}
+
+li {
+
+  margin: 10px;
+  display: inline-block;
+/* Con esto se aplica borden y se orden en linea y no uno arriba del otro */
+  
+}
+
+a {
+
+  color: #212121de;
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+/* Fin Formato del MENU */
+
+/* Formato CSS del index */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+  align-items: center;
+  margin: 0px;
+}
+
+.imgIndex {
+  margin-top: 10%;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-left: 20%; /* Margen izquierdo para la imagen */
+  border-radius: 5px;
+}
+
+.contIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20%; /* Margen derecho para el texto */
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.texto1 {
+
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1rem;
+
+}
+
+.botonIndex {
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #212121;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: max-content;
+  border-radius: 3px;
+}
+
+.botonIndex:hover{
+  background-color: #869C78;
+  color: #212121;
+}
+
+.back-youtube {
+
+  margin-top: 5%;
+  background-color: #869C78;
+  padding: 30px;
+
+}
+
+.textYoutube {
+
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Concert One", serif;
+
+}
+
+.subYoutube {
+
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 1.2rem;
+
+}
+
+.video-home {
+
+  width: 60%;
+  height: 70%;
+  border-radius: 5px;
+
+}
+
+.bloqueVideo {
+
+  text-align: center;
+  padding: 30px;
+
+}
+
+/* Fin CSS index */
+
+/* Formato CSS Productos */
+
+.Productos{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+    
+}
+
+.producto {
+
+  text-align: center;
+  padding: 20px;
+
+}
+
+.tituloproducto {
+
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-family: "Concert One", serif;
+
+}
+
+.subtituloproducto {
+
+  font-size: 0.9rem;
+  line-height: 1;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.imgProducto {
+
+  border-radius: 15px;
+  width: 300px;
+  margin-bottom: 5px;
+
+}
+
+.botonComprar {
+
+  background-color: #869C78;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  text-decoration: none;
+  border: #212121 3px solid;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.botonComprar:hover{
+
+  background-color: white;
+  color: #212121;
+
+}
+
+.comprar {
+
+  font-size: 1rem;
+  line-height: 0.8;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+
+}
+
+.visa {
+
+  padding: 2px;
+  width: 40px;
+
+}
+
+.amex {
+
+  padding: 2px;
+  width: 37px;
+
+ }
+
+.master {
+
+  padding: 2px;
+  width: 35px;
+
+}
+
+/* Fin CSS Productos */
+
+/* Formato CSS Quienes Somos */
+
+.tituloQuienes {
+
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.subtituloQuienes {
+
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.equipo {
+
+  width: 24%;
+  height: 60vh;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8vh;
+  
+}
+  
+.nombreEquipo {
+  
+  font-size: 1.4rem;
+  line-height: 1;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  
+}
+  
+.imgEquipo {
+  
+  border-radius: 15px;
+  width: 200px;
+  border-radius: 100px;
+  border: #212121 3px solid;
+  
+}
+  
+.puesto {
+  
+  background-color: #869C78;
+  color: white;
+  padding: 5px;
+  width: 150px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: #212121 3px solid;
+  border-radius: 5px;
+  
+}
+
+.puestoText {
+
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+
+}
+  
+.linkedin {
+
+  width: 30px;
+  
+}
+  
+.instagram {
+  
+  width: 25px;
+  margin-bottom: 2px;
+  
+}
+
+.tituloExcelencia {
+
+  text-align: center;
+  text-decoration: underline;
+  margin-top: -30px;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-family: "Concert One", serif;
+  
+}
+  
+.subtituloExcelencia {
+  
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 5vh;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+/* Fin CSS Quienes Somos */
+
+/* Formato CSS Sucursales */
+
+.tituloSucursales {
+
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.subtituloSucursales {
+  
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.sucursales {
+
+  width: 100vh;
+  height: 60vh;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8vh;
+  
+}
+
+.imgSucursal {
+  
+  border-radius: 15px;
+  width: 300px;
+  border-radius: 15px;
+  border: #212121 3px solid;
+  
+}
+
+.localidad {
+  
+  background-color: #869C78;
+  color: white;
+  padding: 5px;
+  width: 150px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: #212121 3px solid;
+  border-radius: 5px;
+  
+}
+
+.localidadText {
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+.sucursalesInfo {
+  
+  text-align: left;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-left: 28vh;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+/* Fin CSS Sucursales */
+
+/* Formato CSS Contacto */
+
+.tituloContacto {
+
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.subtituloContacto {
+  
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 10vh;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.contacto {
+
+  width: 100vh;
+  height: 60vh;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8vh;
+  
+}
+
+.imgContacto {
+  
+  border-radius: 15px;
+  width: 300px;
+  border-radius: 15px;
+  border: #212121 3px solid;
+  margin-bottom: -20vh;
+  
+}
+
+.formularioContacto {
+  
+  text-align: left;
+  font-weight: normal;
+  margin-left: 40vh;
+  font-size: 1rem;
+  line-height: 2;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+/* Fin CSS Contacto */
+
+/* Formato del FOOTER */
+
+footer{
+
+  background-color: #212121;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Concert One", serif;
+
+  .fb {
+
+    width: 45px;
+    padding: 5px;
+    
+  }
+  
+  .ig {
+  
+    width: 47px;
+    padding: 5px;
+  
+  }
+  
+  .yt {
+  
+  width: 55px;
+  padding: 5px;
+  
+  }
+
+  .copyright {
+
+    font-size: 1rem;
+    padding: 10px;
+
+  }
+
+}
+
+.footerProductos {
+
+  margin-top: 5vh;
+    
+  }
+
+.footerSucursales {
+
+  margin-top: 10vh;
+
+}
+
+/* Fin Formato del FOOTER */
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+
+li {
+
+  margin: -8px;
+  margin-top: 15px;
+    
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.imgIndex {
+  margin-left: 0; /* 0 margen a la izquierda */
+  margin-bottom: -25%;
+}
+
+.contIndex {
+  margin-right: 5%;
+  margin-left: 5%;
+  align-items: center; /* Centrar el texto */
+}
+
+.botonIndex {
+  width: 100%;
+  max-width: 200px; /* Ancho máximo del botón */
+}
+
+.video-home {
+
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+
+}
+
+.Productos {
+
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.botonComprar{
+
+  margin-bottom: 10px;
+
+}
+
+}
+
+
+/* PreEntrega1 - Faustino Panizzi */
