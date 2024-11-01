@@ -208,7 +208,7 @@ a {
 .imgProducto {
 
   border-radius: 15px;
-  width: 300px;
+  width: 60%;
   margin-bottom: 5px;
 
 }
@@ -218,7 +218,7 @@ a {
   background-color: #869C78;
   color: white;
   padding: 10px;
-  width: 200px;
+  width: 50%;
   text-decoration: none;
   border: #212121 3px solid;
   border-radius: 5px;
@@ -604,6 +604,18 @@ li {
   width: 90%;
   height: 90%;
   border-radius: 5px;
+
+}
+
+.tituloproducto {
+
+  font-size: 1.4rem;
+
+}
+
+.subtituloproducto {
+
+  font-size: 0.8rem;
 
 }
 
