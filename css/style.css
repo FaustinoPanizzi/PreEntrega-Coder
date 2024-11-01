@@ -176,9 +176,8 @@ a {
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 20px;
   margin: 0 auto;
-    
+
 }
 
 .producto {
@@ -617,6 +616,16 @@ li {
 .botonComprar{
 
   margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .Productos {
+
+    grid-template-columns: repeat(1, 1fr);
+  
+  }
 
 }
 
