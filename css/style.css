@@ -29,16 +29,21 @@ body {
 
 /* Formato del MENU */
 
-.menu {
+.navbar {
 
   font-family: "Concert One", serif;
+  font-size: 1.2rem;
+  background-color: #869C78;
 
 }
 
+.navbar-toggler{
+  margin-left: auto;
+}
+
 .menu__link:hover{
-  background-color: #869C78;
-  border-radius: 30px;
-  color: white;
+  text-decoration: underline;
+  color: #212121de;
 }
 
 ul {
