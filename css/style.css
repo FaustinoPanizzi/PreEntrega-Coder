@@ -389,7 +389,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20%;
+  gap: 25%;
 
 }
 
@@ -658,6 +658,35 @@ li {
 
 }
 
+.sucu__sucursales{
+
+  gap: 5%;
+
+}
+
+.imgSucursal {
+ 
+  width: 60%;
+
+}
+
+.localidad{
+
+  margin-right: 20%;
+  margin-left: 20%;
+
+}
+
+.sucursalesInfo {
+  
+  text-align: center;
+  font-weight: normal;
+  margin-top: 15px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -672,6 +701,12 @@ li {
 
     grid-template-columns: 1fr;
   
+  }
+
+  .sucu__sucursales{
+
+    flex-direction: column;
+
   }
   
 }
