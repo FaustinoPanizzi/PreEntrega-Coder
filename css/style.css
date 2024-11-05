@@ -384,6 +384,15 @@ a {
 
 /* Formato CSS Sucursales */
 
+.sucu__sucursales{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+
+}
+
 .tituloSucursales {
 
   text-align: center;
@@ -407,9 +416,6 @@ a {
 
 .sucursales {
 
-  width: 100vh;
-  height: 60vh;
-  display: inline-block;
   text-align: center;
   margin-top: 8vh;
   
@@ -426,21 +432,16 @@ a {
 
 .localidad {
   
+  display: grid;
   background-color: #869C78;
   color: white;
   padding: 5px;
-  width: 150px;
   font-size: 1.2rem;
   text-decoration: none;
   border: #212121 3px solid;
   border-radius: 5px;
+  margin-bottom: 10%;
   
-}
-
-.localidadText {
-
-  font-family: "Poppins", sans-serif;
-
 }
 
 .sucursalesInfo {
@@ -448,9 +449,7 @@ a {
   text-align: left;
   font-weight: normal;
   margin-top: 15px;
-  margin-left: 28vh;
   font-size: 1rem;
-  line-height: 1.4;
   font-family: "Poppins", sans-serif;
   
 }
