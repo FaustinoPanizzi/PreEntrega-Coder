@@ -458,6 +458,15 @@ a {
 
 /* Formato CSS Contacto */
 
+.cont_contacto{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 0 auto;
+margin-bottom: 20%;
+
+}
+
 .tituloContacto {
 
   text-align: center;
@@ -482,7 +491,7 @@ a {
 
 .contacto {
 
-  width: 100vh;
+  width: 100%;
   height: 60vh;
   display: inline-block;
   text-align: center;
@@ -493,22 +502,52 @@ a {
 .imgContacto {
   
   border-radius: 15px;
-  width: 300px;
+  width: 60%;
   border-radius: 15px;
   border: #212121 3px solid;
-  margin-bottom: -20vh;
+  margin-top: 15%;
   
 }
 
 .formularioContacto {
   
-  text-align: left;
+  text-align: start;
   font-weight: normal;
   margin-left: 40vh;
   font-size: 1rem;
   line-height: 2;
   font-family: "Poppins", sans-serif;
   
+}
+
+input, textarea {
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #869C78;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #869c78b7;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaaaaad2;        /* Color del texto del placeholder */
 }
 
 /* Fin CSS Contacto */
@@ -666,7 +705,7 @@ li {
 
 .imgSucursal {
  
-  width: 60%;
+  width: 70%;
 
 }
 
@@ -686,6 +725,28 @@ li {
   font-family: "Poppins", sans-serif;
   
 }
+
+.cont_contacto{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contacto {
+
+  height: 30vh;
+  width: 110%;
+  margin-left: -20%;
+  
+}
+
+.imgContacto {
+  
+  display: none;
+  
+}
+
 
 }
 
@@ -707,6 +768,14 @@ li {
 
     flex-direction: column;
 
+  }
+  
+  .contacto {
+  
+    width: 140%;
+    margin-left: -50%;
+    margin-bottom: 5%;
+    
   }
   
 }
