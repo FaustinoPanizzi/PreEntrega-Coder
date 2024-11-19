@@ -507,7 +507,7 @@ footer {
     margin-right: 100%;
     margin-left: 100%;
     align-items: center; /* Centrar el texto */
-    width: 100%; /* Ocupa el 100% del ancho */
+    width: 90%; /* Ocupa el 100% del ancho */
   }
   .botonIndex {
     width: 100%;
