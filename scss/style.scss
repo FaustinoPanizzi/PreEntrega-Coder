@@ -1,0 +1,23 @@
+/* Reseteo CSS */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  /* Fin Reseteo CSS */
+
+  /* Paleta de Colores */
+
+  $color1: #d8d1b890;
+  $color2: #869C78;
+  $color3: #212121;
+
+  /* Fin Paleta de Colores */
+
+  body {
+
+    background-color: $color1;
+
+}
