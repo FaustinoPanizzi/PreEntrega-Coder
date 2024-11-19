@@ -504,8 +504,8 @@ footer {
     max-width: 80%;
   }
   .contIndex {
-    margin-right: 100%;
-    margin-left: 100%;
+    margin-right: 90%;
+    margin-left: 90%;
     align-items: center; /* Centrar el texto */
     width: 90%; /* Ocupa el 100% del ancho */
   }
