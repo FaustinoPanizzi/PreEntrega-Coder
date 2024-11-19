@@ -39,7 +39,7 @@
   $full: 100%;
   $full_phone: 90%;
 
-  /* Tamaños */
+  /* Fin Tamaños */
 
   body {
 
@@ -118,7 +118,7 @@ a {
   
 .imgIndex {
     margin-top: 10%;
-    width: 100%;
+    width: $full;
     height: auto;
     max-width: 400px;
     margin-left: 20%; /* Margen izquierdo para la imagen */
@@ -555,7 +555,7 @@ a {
   
 input, textarea {
   
-  width: 100%;
+  width: $full;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ddd;
@@ -565,7 +565,7 @@ input, textarea {
 }
   
 button {
-  width: 100%;
+  width: $full;
   padding: 12px;
   background-color: $color2;
   border: none;
@@ -683,8 +683,8 @@ li {
   
 .video-home {
   
-  width: 90%;
-  height: 90%;
+  width: $full_phone;
+  height: $full_phone;
   border-radius: 5px;
   
 }
