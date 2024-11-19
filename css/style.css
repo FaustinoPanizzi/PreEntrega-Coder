@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reseteo CSS */
 * {
   margin: 0;
@@ -8,8 +9,584 @@
 /* Fin Reseteo CSS */
 /* Paleta de Colores */
 /* Fin Paleta de Colores */
+/* Fuentes */
+/* Fin Fuentes */
+/* Padding */
+/* Fin Padding */
+/* Tamaños */
+/* Tamaños */
 body {
   background-color: rgba(216, 209, 184, 0.5647058824);
 }
+
+.titulo {
+  content-visibility: hidden;
+}
+
+.logo {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Formato del MENU */
+.navbar {
+  font-family: "Concert One", serif;
+  font-size: 1.2rem;
+  background-color: #869C78;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+  color: #212121;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  margin: 10px;
+  display: inline-block;
+  /* Con esto se aplica borden y se orden en linea y no uno arriba del otro */
+}
+
+a {
+  color: rgba(33, 33, 33, 0.8705882353);
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Fin Formato del MENU */
+/* Formato del index */
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+  align-items: center;
+  margin: 0px;
+}
+
+.imgIndex {
+  margin-top: 10%;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-left: 20%; /* Margen izquierdo para la imagen */
+  border-radius: 5px;
+}
+
+.contIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20%; /* Margen derecho para el texto */
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.texto1 {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.botonIndex {
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #212121;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: max-content;
+  border-radius: 3px;
+}
+
+.botonIndex:hover {
+  background-color: #869C78;
+  color: #212121;
+}
+
+.back-youtube {
+  margin-top: 5%;
+  background-color: #869C78;
+  padding: 30px;
+}
+
+.textYoutube {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Concert One", serif;
+}
+
+.subYoutube {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.video-home {
+  width: 60%;
+  height: 70%;
+  border-radius: 5px;
+}
+
+.bloqueVideo {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Fin Formato index */
+/* Formato Productos */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+
+.producto {
+  text-align: center;
+  padding: 20px;
+}
+
+.tituloproducto {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-family: "Concert One", serif;
+}
+
+.subtituloproducto {
+  font-size: 0.9rem;
+  line-height: 1;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.imgProducto {
+  border-radius: 15px;
+  width: 60%;
+  margin-bottom: 5px;
+}
+
+.botonComprar {
+  background-color: #869C78;
+  color: white;
+  padding: 10px;
+  width: 50%;
+  text-decoration: none;
+  border: #212121 3px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botonComprar:hover {
+  background-color: white;
+  color: #212121;
+}
+
+.comprar {
+  font-size: 1rem;
+  line-height: 0.8;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+.visa {
+  padding: 2px;
+  width: 40px;
+}
+
+.amex {
+  padding: 2px;
+  width: 37px;
+}
+
+.master {
+  padding: 2px;
+  width: 35px;
+}
+
+/* Fin Formato Productos */
+/* Formato Quienes Somos */
+.equipo__quienes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.tituloQuienes {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtituloQuienes {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.equipo {
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 20%;
+  padding: 10px;
+}
+
+.nombreEquipo {
+  font-size: 1.4rem;
+  line-height: 1;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.imgEquipo {
+  border-radius: 15px;
+  width: 200px;
+  border-radius: 100px;
+  border: #212121 3px solid;
+}
+
+.puesto {
+  background-color: #869C78;
+  color: white;
+  padding: 5px;
+  width: 150px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: #212121 3px solid;
+  border-radius: 5px;
+}
+
+.puestoText {
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.linkedin {
+  width: 30px;
+}
+
+.instagram {
+  width: 25px;
+  margin-bottom: 2px;
+}
+
+.tituloExcelencia {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: -30px;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-family: "Concert One", serif;
+}
+
+.subtituloExcelencia {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 5vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Fin Formato Quienes Somos */
+/* Formato Sucursales */
+.sucu__sucursales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+}
+
+.tituloSucursales {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtituloSucursales {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.sucursales {
+  text-align: center;
+  margin-top: 8vh;
+}
+
+.imgSucursal {
+  border-radius: 15px;
+  width: 300px;
+  border-radius: 15px;
+  border: #212121 3px solid;
+}
+
+.localidad {
+  display: grid;
+  background-color: #869C78;
+  color: white;
+  padding: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: #212121 3px solid;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.sucursalesInfo {
+  text-align: left;
+  font-weight: normal;
+  margin-top: 15px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Fin Formato Sucursales */
+/* Formato Contacto */
+.cont_contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+
+.tituloContacto {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtituloContacto {
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 10vh;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.contacto {
+  width: 100%;
+  height: 60vh;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8vh;
+}
+
+.imgContacto {
+  border-radius: 15px;
+  width: 60%;
+  border-radius: 15px;
+  border: #212121 3px solid;
+  margin-top: 15%;
+}
+
+.formularioContacto {
+  text-align: start;
+  font-weight: normal;
+  margin-left: 40vh;
+  font-size: 1rem;
+  line-height: 2;
+  font-family: "Poppins", sans-serif;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #869C78;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgba(134, 156, 120, 0.7176470588);
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(170, 170, 170, 0.8235294118);
+}
+
+/* Fin Formato Contacto */
+/* Formato del FOOTER */
+footer {
+  background-color: #212121;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Concert One", serif;
+}
+
+.fb {
+  width: 45px;
+  padding: 5px;
+}
+
+.ig {
+  width: 47px;
+  padding: 5px;
+}
+
+.yt {
+  width: 55px;
+  padding: 5px;
+}
+
+.copyright {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.footerProductos {
+  margin-top: 5vh;
+}
+
+.footerSucursales {
+  margin-top: 10vh;
+}
+
+/* Fin Formato del FOOTER */
+/* Media Queries */
+@media screen and (max-width: 991px) {
+  li {
+    margin: -8px;
+    margin-top: 15px;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .imgIndex {
+    margin-left: 0; /* 0 margen a la izquierda */
+    margin-bottom: -25%;
+    max-width: 80%;
+  }
+  .contIndex {
+    margin-right: 100%;
+    margin-left: 100%;
+    align-items: center; /* Centrar el texto */
+    width: 100%; /* Ocupa el 100% del ancho */
+  }
+  .botonIndex {
+    width: 100%;
+    max-width: 200px; /* Ancho máximo del botón */
+  }
+  .video-home {
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+  }
+  .tituloproducto {
+    font-size: 1.4rem;
+  }
+  .subtituloproducto {
+    font-size: 0.8rem;
+  }
+  .productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .botonComprar {
+    margin-bottom: 10px;
+  }
+  .equipo__quienes {
+    grid-template-columns: 1fr 1fr;
+  }
+  .equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .puesto {
+    margin-bottom: 15px;
+  }
+  .sucu__sucursales {
+    gap: 5%;
+  }
+  .imgSucursal {
+    width: 70%;
+  }
+  .localidad {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  .sucursalesInfo {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .cont_contacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto {
+    height: 30vh;
+    width: 110%;
+    margin-left: -20%;
+  }
+  .imgContacto {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .productos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .equipo__quienes {
+    grid-template-columns: 1fr;
+  }
+  .sucu__sucursales {
+    flex-direction: column;
+  }
+  .contacto {
+    width: 140%;
+    margin-left: -50%;
+    margin-bottom: 15%;
+  }
+}
+/* PreEntrega3 - Faustino Panizzi */
 
 /*# sourceMappingURL=style.css.map */
