@@ -1,0 +1,96 @@
+/* Formato del INDEX */
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+    align-items: center;
+    margin: 0px;
+}
+  
+.imgIndex {
+    margin-top: 10%;
+    width: $full;
+    height: auto;
+    max-width: 400px;
+    margin-left: 20%; /* Margen izquierdo para la imagen */
+    border-radius: 5px;
+}
+  
+.contIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20%; /* Margen derecho para el texto */
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+  
+.texto1 {
+  
+    font-family: $fuente2;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1rem;
+  
+}
+  
+.botonIndex {
+  margin-top: 5%;
+  padding: 10px;
+  background-color: $color3;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: max-content;
+  border-radius: 3px;
+}
+  
+.botonIndex:hover{
+  background-color: $color2;
+  color: #212121;
+}
+  
+.back-youtube {
+  
+  margin-top: 5%;
+  background-color: $color2;
+  padding: 30px;
+  
+}
+  
+.textYoutube {
+  
+  text-align: center;
+  font-size: 2rem;
+  font-family: $fuente1;
+  
+}
+  
+.subYoutube {
+  
+  font-family: $fuente2;
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  
+}
+  
+.video-home {
+  
+  width: 60%;
+  height: 70%;
+  border-radius: 5px;
+  
+}
+  
+.bloqueVideo {
+
+  text-align: center;
+  padding: 30px;
+  
+}
+  
+/* Fin Formato index */

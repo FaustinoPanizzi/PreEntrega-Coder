@@ -1,0 +1,61 @@
+/* Reseteo CSS */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+  /* Fin Reseteo CSS */
+
+  /* Paleta de Colores */
+
+  $color1: #d8d1b890;
+  $color2: #869C78;
+  $color3: #212121;
+  $color4: #212121de;
+  $color5: #869c78b7;
+  $color6: #aaaaaad2;
+
+  /* Fin Paleta de Colores */
+
+  /* Fuentes */  
+
+  $fuente1: "Concert One", serif;
+  $fuente2: "Poppins", sans-serif;
+
+  /* Fin Fuentes */
+  
+  /* Padding */  
+
+  $Pad_Logo: 2px;
+  $Redes: 5px;
+ 
+  /* Fin Padding */   
+
+  /* Tamaños */
+
+  $full: 100%;
+  $full_phone: 90%;
+
+  /* Fin Tamaños */
+
+  body {
+
+    background-color: $color1;
+
+}
+
+.titulo {
+
+    content-visibility: hidden;
+  
+}
+  
+.logo {
+  
+      text-align: center;
+      padding: 10px;
+  
+}

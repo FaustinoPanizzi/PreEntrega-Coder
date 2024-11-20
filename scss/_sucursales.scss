@@ -1,0 +1,73 @@
+/* Formato Sucursales */
+
+.sucu__sucursales {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+
+}
+
+.tituloSucursales {
+
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-family: $fuente2;
+
+}
+
+.subtituloSucursales {
+
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: $fuente2;
+
+}
+
+.sucursales {
+
+    text-align: center;
+    margin-top: 8vh;
+
+}
+
+.imgSucursal {
+
+    border-radius: 15px;
+    width: 300px;
+    border-radius: 15px;
+    border: $color3 3px solid;
+
+}
+
+.localidad {
+
+    display: grid;
+    background-color: $color2;
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: $color3 3px solid;
+    border-radius: 5px;
+    margin-bottom: 10%;
+
+}
+
+.sucursalesInfo {
+
+    text-align: left;
+    font-weight: normal;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: $fuente2;
+
+}
+
+/* Fin Formato Sucursales */

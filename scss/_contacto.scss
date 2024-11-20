@@ -1,0 +1,101 @@
+/* Formato Contacto */
+
+.cont_contacto {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 20%;
+
+}
+
+.tituloContacto {
+
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-family: $fuente2;
+
+}
+
+.subtituloContacto {
+
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 10vh;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: $fuente2;
+
+}
+
+.contacto {
+
+    width: 100%;
+    height: 60vh;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8vh;
+
+}
+
+.imgContacto {
+
+    border-radius: 15px;
+    width: 60%;
+    border-radius: 15px;
+    border: $color3 3px solid;
+    margin-top: 15%;
+
+}
+
+.formularioContacto {
+
+    text-align: start;
+    font-weight: normal;
+    margin-left: 40vh;
+    font-size: 1rem;
+    line-height: 2;
+    font-family: $fuente2;
+
+}
+
+input,
+textarea {
+
+    width: $full;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+
+button {
+    width: $full;
+    padding: 12px;
+    background-color: $color2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+
+    background-color: $color5;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+
+    color: $color6;
+
+}
+
+/* Fin Formato Contacto */

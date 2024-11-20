@@ -64,7 +64,7 @@ a {
 }
 
 /* Fin Formato del MENU */
-/* Formato del index */
+/* Formato del INDEX */
 .contenedor {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -418,7 +418,8 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -442,7 +443,8 @@ button:hover {
   background-color: rgba(134, 156, 120, 0.7176470588);
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: rgba(170, 170, 170, 0.8235294118);
 }
 
@@ -499,19 +501,23 @@ footer {
     margin: 0 auto;
   }
   .imgIndex {
-    margin-left: 0; /* 0 margen a la izquierda */
+    margin-left: 0;
+    /* 0 margen a la izquierda */
     margin-bottom: -25%;
     max-width: 80%;
   }
   .contIndex {
     margin-right: 90%;
     margin-left: 90%;
-    align-items: center; /* Centrar el texto */
-    width: 90%; /* Ocupa el 100% del ancho */
+    align-items: center;
+    /* Centrar el texto */
+    width: 90%;
+    /* Ocupa el 100% del ancho */
   }
   .botonIndex {
     width: 100%;
-    max-width: 200px; /* Ancho máximo del botón */
+    max-width: 200px;
+    /* Ancho máximo del botón */
   }
   .video-home {
     width: 90%;

@@ -1,0 +1,95 @@
+/* Formato Productos */
+
+.productos {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+
+}
+
+.producto {
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+.tituloproducto {
+
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-family: $fuente1;
+
+}
+
+.subtituloproducto {
+
+    font-size: 0.9rem;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-family: $fuente2;
+
+}
+
+.imgProducto {
+
+    border-radius: 15px;
+    width: 60%;
+    margin-bottom: 5px;
+
+}
+
+.botonComprar {
+
+    background-color: $color2;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    text-decoration: none;
+    border: #212121 3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.botonComprar:hover {
+
+    background-color: white;
+    color: $color3;
+
+}
+
+.comprar {
+
+    font-size: 1rem;
+    line-height: 0.8;
+    font-weight: normal;
+    font-family: $fuente2;
+    margin: 0 auto;
+
+}
+
+.visa {
+
+    padding: $Pad_Logo;
+    width: 40px;
+
+}
+
+.amex {
+
+    padding: $Pad_Logo;
+    width: 37px;
+
+}
+
+.master {
+
+    padding: $Pad_Logo;
+    width: 35px;
+
+}
+
+/* Fin Formato Productos */

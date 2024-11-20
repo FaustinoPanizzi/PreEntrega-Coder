@@ -1,0 +1,115 @@
+/* Formato Quienes Somos */
+
+.equipo__quienes {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+
+}
+
+.tituloQuienes {
+
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-family: $fuente2;
+
+}
+
+.subtituloQuienes {
+
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: $fuente2;
+
+}
+
+.equipo {
+
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    padding: 10px;
+
+}
+
+.nombreEquipo {
+
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-family: $fuente2;
+
+}
+
+.imgEquipo {
+
+    border-radius: 15px;
+    width: 200px;
+    border-radius: 100px;
+    border: $color3 3px solid;
+
+}
+
+.puesto {
+
+    background-color: $color2;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: $color3 3px solid;
+    border-radius: 5px;
+
+}
+
+.puestoText {
+
+    font-weight: normal;
+    font-family: $fuente2;
+
+}
+
+.linkedin {
+
+    width: 30px;
+
+}
+
+.instagram {
+
+    width: 25px;
+    margin-bottom: 2px;
+
+}
+
+.tituloExcelencia {
+
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -30px;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    font-family: $fuente1;
+
+}
+
+.subtituloExcelencia {
+
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 5vh;
+    font-family: $fuente2;
+
+}
+
+/* Fin Formato Quienes Somos */

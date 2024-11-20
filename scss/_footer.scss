@@ -1,0 +1,53 @@
+/* Formato del FOOTER */
+
+footer {
+
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Concert One", serif;
+
+}
+
+.fb {
+
+    width: 45px;
+    padding: $Redes;
+
+}
+
+.ig {
+
+    width: 47px;
+    padding: $Redes;
+
+}
+
+.yt {
+
+    width: 55px;
+    padding: $Redes;
+
+}
+
+.copyright {
+
+    font-size: 1rem;
+    padding: 10px;
+
+}
+
+.footerProductos {
+
+    margin-top: 5vh;
+
+}
+
+.footerSucursales {
+
+    margin-top: 10vh;
+
+}
+
+/* Fin Formato del FOOTER */
