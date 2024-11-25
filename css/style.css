@@ -71,6 +71,7 @@ a {
   gap: 150px;
   align-items: center;
   margin: 0px;
+  overflow: hidden;
 }
 
 .imgIndex {
