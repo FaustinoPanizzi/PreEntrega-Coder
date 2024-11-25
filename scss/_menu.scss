@@ -5,41 +5,41 @@
     font-family: $fuente1;
     font-size: 1.2rem;
     background-color: $color2;
-  
+
 }
-  
-.navbar-toggler{
+
+.navbar-toggler {
     margin-left: auto;
 }
-  
-.menu__link:hover{
+
+.menu__link:hover {
     text-decoration: underline;
     color: $color3;
 }
-  
+
 ul {
-  
+
     list-style-type: none;
     text-align: center;
-  
+
 }
-  
+
 li {
-  
+
     margin: 10px;
     display: inline-block;
-  /* Con esto se aplica borden y se orden en linea y no uno arriba del otro */
-    
+    /* Con esto se aplica borden y se orden en linea y no uno arriba del otro */
+
 }
-  
+
 a {
-  
+
     color: $color4;
     font-size: 1.2rem;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
-  
+
 }
-  
-  /* Fin Formato del MENU */
+
+/* Fin Formato del MENU */
