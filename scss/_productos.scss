@@ -52,12 +52,12 @@
     border-radius: 5px;
     cursor: pointer;
 
-}
+    &:hover {
 
-.botonComprar:hover {
+        background-color: white;
+        color: $color3;
 
-    background-color: white;
-    color: $color3;
+    }
 
 }
 
@@ -76,6 +76,12 @@
     padding: $Pad_Logo;
     width: 40px;
 
+    &:hover {
+
+        transform: scale(1.2);
+
+    }
+
 }
 
 .amex {
@@ -83,12 +89,24 @@
     padding: $Pad_Logo;
     width: 37px;
 
+    &:hover {
+
+        transform: scale(1.2);
+
+    }
+
 }
 
 .master {
 
     padding: $Pad_Logo;
     width: 35px;
+
+    &:hover {
+
+        transform: scale(1.2);
+
+    }
 
 }
 
