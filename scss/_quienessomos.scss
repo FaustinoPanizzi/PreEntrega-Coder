@@ -68,6 +68,13 @@
     border: $color3 3px solid;
     border-radius: 5px;
 
+    &:hover {
+
+        background-color: white;
+        color: $color3;
+
+    }
+
 }
 
 .puestoText {
@@ -79,14 +86,27 @@
 
 .linkedin {
 
-    width: 30px;
+    width: 35px;
+    
+    &:hover {
+
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
 
 }
 
 .instagram {
 
-    width: 25px;
-    margin-bottom: 2px;
+    width: 35px;
+
+    &:hover {
+
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
 
 }
 

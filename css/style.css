@@ -286,6 +286,10 @@ a {
   border: #212121 3px solid;
   border-radius: 5px;
 }
+.puesto:hover {
+  background-color: white;
+  color: #212121;
+}
 
 .puestoText {
   font-weight: normal;
@@ -293,12 +297,19 @@ a {
 }
 
 .linkedin {
-  width: 30px;
+  width: 35px;
+}
+.linkedin:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .instagram {
-  width: 25px;
-  margin-bottom: 2px;
+  width: 35px;
+}
+.instagram:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .tituloExcelencia {
