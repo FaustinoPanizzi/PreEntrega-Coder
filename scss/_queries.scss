@@ -199,12 +199,14 @@
     .E_404 .img_error {
 
         width: $full_phone;
+        margin: 0 auto;
 
     }
 
     .E_404 .parrafo_error {
         font-size: 0.9rem;
-        padding: 0;
+        padding: 15px;
+        margin-bottom: 4%;
     }
 
 }
