@@ -503,6 +503,31 @@ footer {
 }
 
 /* Fin Formato del FOOTER */
+.E_404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.E_404 .img_error {
+  margin-top: 4%;
+  width: 50%;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.E_404 .parrafo_error {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #869C78;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 0 20px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   li {
@@ -614,28 +639,21 @@ footer {
     margin-left: -50%;
     margin-bottom: 15%;
   }
+  .E_404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .E_404 .img_error {
+    width: 90%;
+  }
+  .E_404 .parrafo_error {
+    font-size: 0.9rem;
+    padding: 0;
+  }
 }
-.E_404 {
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-}
-
-.img_error {
-  width: 40%;
-  border-radius: 20px;
-  margin-right: 20px;
-}
-
-.parrafo_error {
-  margin-top: 20px;
-  font-family: "Poppins", sans-serif;
-  background-color: #869C78;
-  color: white;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-/* PreEntrega3 - Faustino Panizzi */
+/* Entrega Final - Faustino Panizzi */
 
 /*# sourceMappingURL=style.css.map */

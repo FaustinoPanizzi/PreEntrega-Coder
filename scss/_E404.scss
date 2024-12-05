@@ -1,26 +1,32 @@
 .E_404 {
 
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
+    margin-bottom: 4%;
+    margin-top: 4%;
 
-}
+    .img_error {
 
-.img_error {
-
-    width: 40%;
-    border-radius: 20px;
-    margin-right: 20px;
-
-}
-
-.parrafo_error {
-
-    margin-top: 20px;
-    font-family: $fuente2;
-    background-color: $color2;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
+        margin-top: 4%;
+        width: 50%;
+        border-radius: 20px;
+        margin-right: 20px;
+    
+    }
+    
+    .parrafo_error {
+        
+        margin-top: 20px;
+        font-family: $fuente2;
+        background-color: $color2;
+        color: white;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 0 20px;
+    
+    }
 
 }
